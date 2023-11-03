@@ -8,16 +8,16 @@
 <table>
     <tr>
         <th>ID</th>
-        <th>Name - Age</th>
+        <th>Name </th>
     </tr>
     <?php
-    // Replace this with your data retrieval logic
-    $data = [
+
+$data = [
         ['1', 'John'],
         ['2', 'Alice'],
         ['3', 'Bob'],
     ];
-//adding...
+
     foreach ($data as $row) {
         echo "<tr><td>{$row[0]}</td><td>{$row[1]}</td></tr>";
     }
