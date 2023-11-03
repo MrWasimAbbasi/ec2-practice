@@ -24,6 +24,6 @@ jobs:
 
     - name: Deploy to EC2
       run: |
-        ssh -o StrictHostKeyChecking=no -i key ec2-user@your-ec2-ip "cd /path/to/your/app && git pull origin master"
+        ssh -o StrictHostKeyChecking=no -i key ec2-user@13.49.77.89 "cd /var/www/html && git pull origin master"
       env:
         SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
