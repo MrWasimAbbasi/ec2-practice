@@ -6,7 +6,7 @@
 <!-- Include DataTables CSS from the DataTables CDN -->
 <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.24/css/dataTables.bootstrap4.min.css">
 
-    <title>Deploy to AWS Instance!!</title>
+    <title>Deploy to AWS Instance</title>
 </head>
 <body>
 <h1>Data Display</h1>
