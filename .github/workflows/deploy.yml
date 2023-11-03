@@ -3,7 +3,7 @@ name: Deploy to EC2
 on:
   push:
     branches:
-      - master
+      - main
 
 jobs:
   deploy:
@@ -24,6 +24,6 @@ jobs:
 
     - name: Deploy to EC2
       run: |
-        ssh -o StrictHostKeyChecking=no -i key ec2-user@13.49.77.89 "cd /var/www/html && git pull origin master"
+        ssh -o StrictHostKeyChecking=no -i key ec2-user@13.49.77.89 "cd /var/www/html && git pull origin main"
       env:
         SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
