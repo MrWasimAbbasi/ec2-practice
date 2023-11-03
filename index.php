@@ -17,7 +17,7 @@
         ['2', 'Alice'],
         ['3', 'Bob'],
     ];
-
+//adding...
     foreach ($data as $row) {
         echo "<tr><td>{$row[0]}</td><td>{$row[1]}</td></tr>";
     }
