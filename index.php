@@ -8,7 +8,7 @@
 <table>
     <tr>
         <th>ID</th>
-        <th>Name</th>
+        <th>Name - Age</th>
     </tr>
     <?php
     // Replace this with your data retrieval logic
