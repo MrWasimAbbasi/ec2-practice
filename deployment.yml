@@ -15,3 +15,7 @@ spec:
       containers:
         - name: php-app
           image: kub-app-image:latest
+    volumes:
+  - name: php-app
+    hostPath:
+      path: /var/www/html

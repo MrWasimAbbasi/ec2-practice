@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 
-<!-- Include DataTables CSS from the DataTables CDN -->
-<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.24/css/dataTables.bootstrap4.min.css">
+    <!-- Include DataTables CSS from the DataTables CDN -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.24/css/dataTables.bootstrap4.min.css">
 
     <title>Deploy to AWS Instance</title>
 </head>
@@ -13,11 +13,11 @@
 <table class="table table-bordered table-hover table-stripped">
     <tr>
         <th>ID</th>
-        <th>Name </th>
+        <th>Name</th>
     </tr>
     <?php
 
-$data = [
+    $data = [
         ['1', 'John'],
         ['2', 'Alice'],
         ['3', 'Bob'],
